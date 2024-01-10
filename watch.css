@@ -1,0 +1,303 @@
+html, body{
+    background-color: lightgray;
+}
+.watch-video{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    /* background-color: rgba(250, 250, 105, 0.83); */
+}
+.video-container{
+    background-color: #fff;
+  border-radius: .5rem;
+  padding: 2rem;
+   
+}
+
+.video{
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+video{
+    border-radius: .5rem;
+  width: 100%;
+  object-fit: contain;
+  background-color: #000;
+
+}
+
+#h3{
+    text-align: left;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.info{
+    display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid darkgray;
+  margin-top: 1rem;
+}
+
+.date{
+  display: flex;
+  align-items: center;
+    font-size: 1.1rem;
+  font-weight: 200;
+}
+
+.date1{
+  height: 1.3rem;
+  width: 6rem;
+}
+
+#calendar{
+  height: 1.5rem;
+  width: 3rem;
+ color: #8e44ad;
+}
+
+#fill-heart{
+  height: 1.5rem;
+  width: 1.3rem;
+  color: #8e44ad;
+}
+.tutor{
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tutor img{
+  height: 3rem;
+  width: 3rem;
+    
+}
+
+.profile1 h3{
+    font-weight: 800;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+.profile1 span{
+    font-weight: 100;
+  color: #823636;
+
+}
+.profile1{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0rem;
+  padding: 0;
+  flex-direction: column;
+  width: 20rem;
+  height: 3rem;
+}
+.buttons{
+  margin-top: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+
+.buttons a{
+    border-radius: .5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  background-color: #8e44ad;
+  margin-top: 0 rem;
+  color: var(--background-color);
+  text-align: center;
+}
+
+.buttons a:hover{
+    background-color: #2c3e50;;
+    color: #ffffff;
+}
+
+button{
+    padding: 0.4rem 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #eae9e9;
+  border-radius: 2px;
+  border: none;
+  text-align: center;
+}
+
+button:hover{
+    color: white;
+    background-color: darkgray;
+}
+
+.description{
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgb(164, 162, 162);
+}
+
+.contain-button{
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  border-radius: 3px;
+}
+
+#line-heart{
+  height: 2rem;
+  width: 2rem;
+  font-weight: 200;
+}
+
+#like{
+  height: 1rem;
+}
+
+.container1{
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1219px;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  min-height: 6rem;
+  width: 100%;
+}
+
+.container{
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1219px;
+  background-color: #fff;
+  border-radius: 0.6rem;
+  min-height: 30rem;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
+input{
+  flex: 1;
+  border:none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#Add{
+  border:none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color:#fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2.5rem;
+}
+
+.buttons1{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2rem;
+  
+}
+
+#deleteButton{
+  border: none;
+  outline: none;
+  padding: 11px 36px;
+  background: #fb8003;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+}
+
+#rplayButton{
+  border: none;
+  outline: none;
+  padding: 11px 36px;
+  background: #8e44ad;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+
+}
+#editButton{
+  border: none;
+  outline: none;
+  padding: 11px 36px;
+  background: #fb2c03;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.comment-box{
+  border-radius: .5rem;
+  background-color: lightgrey;
+  padding: 0rem 0.5rem;
+  white-space: pre-line;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  color: black;
+  line-height: 1rem;
+  position: relative;
+  z-index: 0;
+  text-align: left;
+  
+}
+
+#add{
+  border: none;
+  outline: none;
+  padding: 12px 17px;
+  background: #ff5945;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2.5rem;
+}
+
+
+
+#delete{
+  min-height: 1rem;
+  width: 1.3rem;
+  cursor: pointer;
+  margin-top: -2rem;
+  margin-left: 73rem;
+}
+
+.footer-container{
+  background-color: var(--background-color);
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 1267px;
+  border-radius: 1rem;
+}
